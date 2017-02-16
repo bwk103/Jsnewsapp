@@ -1,6 +1,7 @@
 (function(exports) {
-  var Article = function(text) {
-    this.headline = text;
+  var Article = function(headline, body) {
+    this.headline = headline;
+    this.body = body
   };
 
   Article.prototype.viewHeadline = function() {
